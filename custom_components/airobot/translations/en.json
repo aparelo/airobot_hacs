@@ -1,0 +1,63 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "title": "Add Airobot thermostat",
+                "description": "The host parameter is optional, if not provided hostname will be used instead.",
+                "data": {
+                    "host": "Host",
+                    "password": "Password",
+                    "username": "Username"
+                }
+            }
+        }
+    },
+    "entity": {
+        "button": {
+            "reboot_button": {
+                "name": "Reboot thermostat"
+            },
+            "recalibrate_button": {
+                "name": "Recalibrate CO2 sensor"
+            }
+        },
+        "climate": {
+            "thermostat": {
+                "name": "Thermostat"
+            }
+        },
+        "sensor": {
+            "co2": {
+                "name": "CO2"
+            },
+            "aqi": {
+                "name": "AQI"
+            },
+            "device_uptime": {
+                "name": "Thermostat uptime"
+            },
+            "heating_uptime": {
+                "name": "Heating uptime"
+            },
+            "errors": {
+                "name": "Thermostat errors"
+            }
+        },
+        "switch": {
+            "disable_exercise": {
+                "name": "Disable actuator exercise"
+            },
+            "child_lock": {
+                "name": "Child lock"
+            }
+        }
+  }
+}
