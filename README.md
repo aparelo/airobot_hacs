@@ -10,8 +10,7 @@ Just copy the airobot folder into the custom_components/ folder under your confi
 
 ## Installation using HACS
 
-TBD, once I get it published to HACS.
-
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aparelo&repository=https%3A%2F%2Fgithub.com%2Faparelo%2Fairobot_hacs&category=integration)
 
 # Set up
 
