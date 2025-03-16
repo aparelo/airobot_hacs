@@ -31,29 +31,32 @@ Note down the id and password at the bottom of that screen. You can also scan th
 
 The integration can be set up using the Home assistant UI. The config accepts the following parameters
 
-*username:* The username from the previous step
-*password:* Password from the previous step
-*host (optional)*: The ip address or hostname of the thermostat. Must start with http://. If not provided then the hostname is generated automatically from the username.
+**username:** The username from the previous step
+
+**password:** Password from the previous step
+
+**host (optional)**: The ip address or hostname of the thermostat. Must start with http://. If not provided then the hostname is generated automatically from the username.
 
 # Exposed entities
 
 The integration exposes the following entities for each thermostat.
 
-*climate* - Climate entity for the thermostat. Allows the setting of the target temperature and shows the current temperature and humidity measurements. Also shows the current state of the thermostat (Heating or idle) and allows the changing of modes (HOME, AWAY and BOOST).
+**climate** - Climate entity for the thermostat. Allows the setting of the target temperature and shows the current temperature and humidity measurements. Also shows the current state of the thermostat (Heating or idle) and allows the changing of modes (HOME, AWAY and BOOST).
 
-*co2_sensor* - Only for thermostats with a CO2 sensor. Shows the current CO2 value.
+**co2_sensor** - Only for thermostats with a CO2 sensor. Shows the current CO2 value.
 
-*aqi_sensor* - Only for thermostats with a CO2 sensor. Shows the current AQI value.
+**aqi_sensor** - Only for thermostats with a CO2 sensor. Shows the current AQI value.
 
-*device_uptime_sensor* - Shows the thermostat uptime in seconds
+**device_uptime_sensor** - Shows the thermostat uptime in seconds
 
-*heating_uptime_sensor* - Shows the heating uptime in seconds
+**heating_uptime_sensor** - Shows the heating uptime in seconds
 
-*errors_sensor* - Shows if there are any errors detected. 0 means no errors and any value above 0 means that is an error. Unfortunately the exact error codes are not documented.
+**errors_sensor** - Shows if there are any errors detected. 0 means no errors and any value above 0 means that is an error. Unfortunately the exact error codes are not documented.
 
-*reboot_button* - Button to reboot the thermostat
-*recalibrate_co2_button* - Button to reclibrate the CO2 sensor.
+**reboot_button** - Button to reboot the thermostat
 
-*actuator_exercise_disabled_switch* - Switch to disable the actuator exercise mode.
+**recalibrate_co2_button** - Button to reclibrate the CO2 sensor.
 
-*childlock_enabled_switch* - Switch to enable and disable the child lock.
+**actuator_exercise_disabled_switch** - Switch to disable the actuator exercise mode.
+
+**childlock_enabled_switch** - Switch to enable and disable the child lock.
